@@ -1,0 +1,3 @@
+docker login
+docker build -t habemuspapadum/holy-gcc-builder:<VERSION> .
+docker push habemuspapadum/holy-gcc-builder:<VERSION>
